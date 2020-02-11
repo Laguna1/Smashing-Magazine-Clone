@@ -37,9 +37,7 @@
   display:flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
- 
-  
+  align-items: center;  
 }
 
 .nav_elements{ 
@@ -100,3 +98,26 @@ background-color: var(--light-visual);
     width: 33.33%;
     height: 400px;
 }
+
+.red_white_row{
+  display: grid;
+  grid-template-columns: 2fr 1fr 355px;
+  grid-template-rows: 692px;
+  background-color: var(--heavy-visual) ;
+  margin-right: 10px;
+  margin-left:10px;
+  grid-gap: 5px;
+  
+}
+
+
+.red_card-lg{
+  grid-area: 1fr;
+  background-color: var(--light-visual);
+}
+
+.white_card-small{
+  grid-area: 1fr;
+  background-color: var(--light-visual);
+}
+
