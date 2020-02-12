@@ -98,12 +98,12 @@ background-color: var(--light-visual);
     width: 33.33%;
     height: 400px;
 }
+/* #region  Red & White Block */
 
 .red_white_row{
   display: grid;
   grid-template-columns: 2fr 1fr 355px;
   grid-template-rows: 692px;
-  background-color: var(--heavy-visual) ;
   margin-right: 10px;
   margin-left:10px;
   grid-gap: 5px;
@@ -113,11 +113,47 @@ background-color: var(--light-visual);
 
 .red_card-lg{
   grid-area: 1fr;
-  background-color: var(--light-visual);
+  background-color: var(--heavy-visual);
+  border-radius: 10px;
 }
 
 .white_card-small{
   grid-area: 1fr;
+  background-color: var(--verylight-visual);
+  text-align: center;
+  position: relative;
+  
+  
+ 
+}
+
+/* #endregion */
+
+
+.white_red_row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 692px;
+  margin-right: 10px;
+  margin-left:10px;
+  grid-gap: 10px;
+  
+}
+.white_gap{
+    background-color: var(--verylight-visual);
+    width: 100%;
+    height: 80px;
+}
+
+.white_card-small >div{
+  position:absolute;
+  top:10px;
+  text-align: justify;
+  padding:35px;
   background-color: var(--light-visual);
+  margin:16px;
+  height:350px;
+  border-radius: 10px;
+
 }
 
