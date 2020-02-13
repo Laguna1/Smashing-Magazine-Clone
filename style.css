@@ -36,7 +36,7 @@
   font-size: 1.2em;
   color: rgb(56, 54, 54);
   font-weight: 700;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 33.33%;
   height: 400px;
 }
@@ -83,7 +83,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: var(--heavy-visual);
-  border: 1px solid black;
+  border: 1px solid white;
   width: 100%;
   height: 400px;
 }
@@ -109,7 +109,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 100%;
   height: 400px;
   background-color: var(--light-visual);
@@ -125,18 +125,20 @@
 
 .red_card-start {
   order: 2;
-  background-color: yellow;
+  background-color: white;
   float: right;
   height: 740px;
   width: 33%;
+  padding: 20px;
 }
 
 .mywhite_card {
   order: 3;
-  background-color: blue;
+  background-color: rgb(131, 126, 126);
   float: right;
   height: 740px;
   width: 33%;
+  padding: 20px;
 }
 
 .clearme {
@@ -249,7 +251,6 @@
   align-items: center;
   justify-content: center;
   vertical-align: middle;
-  border: 1px solid black;
 }
 
 .lightgreen_block {
@@ -259,7 +260,6 @@
   display: flex;
   justify-content: center;
   background-color: var(--medium-visual);
-  border: 1px solid black;
   font-size: 2.5em;
   color: white;
   font-weight: 900;
