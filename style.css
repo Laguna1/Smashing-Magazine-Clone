@@ -1,4 +1,6 @@
 
+/* #region  Global Settings */
+
 /* GLOBAL VARIABLES */
 :root {
   --heaviest-visual: rgb(49, 47, 47);
@@ -16,6 +18,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* #endregion Global Settings */
 
 /* #region  UTILITY CLASSES */
 .larger {
@@ -159,26 +163,6 @@
   margin-top: 40px;
   background-color: var(--light-visual);
 }
-
-/* .white_red_row {
-  display: grid;
-  grid-template-columns: 1/span 2;
-  grid-template-rows: 150px;
-  grid-template-areas: '. r w';
-  margin-right: 10px;
-  margin-left: 10px;
-  grid-gap: 5px;
-}
-
-.red_card-lg {
-  grid-area: r;
-  background-color: var(--heavy-visual);
-}
-
-.mywhite_card {
-  grid-area: w;
-  background-color: var(--light-visual);
-} */
 
 /* #endregion Red & White Blocks */
 
@@ -435,7 +419,8 @@ h2 {
 
 /* #region  Footer */
 .topics {
-  height: 700px;
+  position: relative;
+  height: 800px;
   width: 100%;
   background-color: var(--heavy-visual);
 }
@@ -462,8 +447,10 @@ h2 {
 }
 
 .canary {
-  float: left;
+  position: absolute;
+  bottom: 25px;
   margin-left: 40px;
+  margin-bottom: 25px;
   padding: 20px;
   background-color: var(--light-visual);
   padding-top: 80px;
