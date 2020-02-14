@@ -17,10 +17,10 @@ Project: Design Teardown
  ![Example](https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png)
 
 ### Sample Page
-https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png 
+https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png
 
 ### Live Demo 
- [Smashing-Magazine-Clone] https://laguna1.github.io/Smashing-Magazine-Clone/ - From the Odin Project Curriculum.
+ [Smashing-Magazine-Clone] https://laguna1.github.io/Smashing-Magazine-Clone/- From the Odin Project Curriculum.
 ***
 
 The design teardown page was sized to a viewport size for a laptop 1440 X 900.
