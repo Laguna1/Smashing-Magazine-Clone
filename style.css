@@ -14,7 +14,7 @@
 /* RESET SETTINGS */
 
 * {
-  margin: 0;
+  margin: 0; 
   padding: 0;
   box-sizing: border-box;
 }
@@ -53,7 +53,7 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   background-color: var(--heaviest-visual);
   background-size: contain;
   height: 205px;
@@ -68,7 +68,6 @@
   background-color: var(--light-visual);
   padding: 10px;
   font-family: 'Galada', cursive;
-
 }
 
 .main_navbar :first-child {
@@ -371,7 +370,7 @@ h2 {
 
 /* #region  Curated Posts */
 .curated_posts {
-  width: 100%;
+  max-width: 100%;
   height: 700px;
   display: flex;
   justify-content: space-between;
@@ -388,7 +387,7 @@ h2 {
 }
 
 .heading_card > article {
-  box-sizing: content-box;
+  box-sizing: border-box;
   padding: 20px;
   text-align: center;
 }
@@ -405,24 +404,23 @@ h2 {
 .curated_posts > .challenges > article,
 .curated_posts > .optimisations > article,
 .curated_posts > .workflow > article {
-  box-sizing: content-box;
+  box-sizing: border-box;
   padding: 20px;
   text-align: center;
 }
 
 .challenges {
   background-color: var(--light-visual);
-  margin: 10px;
+  margin-right:5px;
 }
 
 .optimisations {
   background-color: var(--light-visual);
-  margin: 10px;
+  margin-right:5px
 }
 
 .workflow {
   background-color: var(--light-visual);
-  margin: 10px;
 }
 
 /* #endregion Curated Posts */
@@ -474,6 +472,7 @@ a {
   color: aliceblue;
   width: 117px;
 }
+
 .canary {
   position: absolute;
   bottom: 25px;
