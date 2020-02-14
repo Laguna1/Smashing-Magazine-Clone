@@ -1,7 +1,7 @@
 
 Design Teardown-Project5
 
-This assignment consists of making a design teardown and heatmap of a content page from Smashing Magazine. The page was built using a combination of floats,CSS flexbox and  CSS grids techniques.
+This assignment consists of making a design teardown and heatmap of a content page from Smashing Magazine. The page was built using a combination of floats, CSS flexbox and  CSS grids techniques.
 
 The guidelines from the Microverse curriculum, as well as The Odin Project were used for this project.
 
